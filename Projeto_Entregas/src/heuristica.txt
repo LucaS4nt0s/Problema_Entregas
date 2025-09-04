@@ -13,7 +13,7 @@ public class Main {
         LerNumeros.lerNumeros(nomeArquivo, numeros); // chama a função da classe LerNumeros para armazenar os números lidos do arquivo txt na lista
         System.out.println("Números lidos do arquivo: " + numeros); // exibe os números lidos do arquivo
 
-        int moto1, moto2; // declara as variáveis moto1 e moto2
+        int moto1, moto2;
 
         List<Integer> ordemMoto1 = new ArrayList<>(); // cria uma lista para armazenar a ordem da moto1
         List<Integer> ordemMoto2 = new ArrayList<>(); // cria uma lista para armazenar a ordem da moto2
