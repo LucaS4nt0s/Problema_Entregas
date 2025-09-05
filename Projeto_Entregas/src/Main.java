@@ -1,8 +1,6 @@
 package src;
 import java.util.List;
 
-import javax.naming.spi.DirStateFactory.Result;
-
 import java.util.ArrayList;
 
 public class Main {
@@ -22,7 +20,7 @@ public class Main {
 
         resultados.getOrdemMoto1().sort(Integer::compareTo); // ordena a lista de entregas do moto 1
         resultados.getOrdemMoto2().sort(Integer::compareTo); // ordena a lista de entregas do moto 2
-        
+
         System.out.println("O tempo mínimo para concluir todas as entregas é: " + resultados.getTempoMinimo());
         System.out.println("Ordem de entregas do Motoqueiro 1: " + resultados.getOrdemMoto1());
         System.out.println("Ordem de entregas do Motoqueiro 2: " + resultados.getOrdemMoto2());
